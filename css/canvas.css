@@ -1,0 +1,64 @@
+
+html, body {
+  background: #fafafa;
+  font: 1.2em Roboto, sans-serif; 
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bmc-canvas {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bmc-canvas h1 {
+  color: #555;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.bmc-canvas-container {
+  border: 6px solid #eee;
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 0 20px 20px;
+}
+
+.bmc-main-panels {
+  display: flex;
+  flex: 3;
+}
+
+.bmc-column-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.bmc-footer-panels {
+  display: flex;
+  flex: 1;
+}
+
+.bmc-panel {
+  background: white;
+  border: 1px solid #eee;
+  padding-left: 20px;
+  flex: 1;
+}
+
+.bmc-panel h2 {
+  color: #555;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.bmc-panel ul li {
+  font-size: 0.8em;
+  line-height: 1.6em;
+}

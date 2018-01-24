@@ -1,0 +1,13 @@
+
+<section class="bmc-panel">
+  <h2>{{ title }}</h2>
+  <ul ng-show="items.length">
+    <li ng-repeat="item in items track by $index">{{ item }} 
+      <span ng-click="removeItem($index)">X</span>
+    </li>
+  </ul>
+  <form ng-submit="saveItem()">
+    <input ng-model="item">
+    <button type="submit">add</button>
+  </form>
+</section>
