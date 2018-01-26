@@ -17,4 +17,12 @@ angular.module('bmc').service('dataService', function() {
     }
     return [];
   };
+
+  this.saveProjectName = function(name) {
+    localStorage.setItem('bmc.project_name', name);
+  };
+
+  this.getProjectName = function() {
+    return localStorage.getItem('bmc.project_name') || 'Project Name';
+  };
 });
